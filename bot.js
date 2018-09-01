@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
+const prefix = "2";
 /////////////////////////
 ////////////////////////
 
@@ -316,7 +316,7 @@ client.on('message', message => {
     if (message.content === 'help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
-        .setDescription('**برفكس البوت 1**')
+        .setDescription('**برفكس البوت 2**')
         .addField('play', 'لتشغيل اغنية')
         .addField('join', 'دخول رومك الصوتي')
         .addField('disconnect', 'الخروج من رومك الصوتي')
@@ -335,15 +335,15 @@ client.on('message', message => {
 client.on('message', message => {
      if (message.content === "1help") {
 message.author.send("** [❖═════1play═══════❖]**" + `  **
-❖ 1play : لتشغيل اغنية
-❖ 1join : دخول رومك الصوتي
-❖ 1disconnect : مطور البوت
-❖ skip : تخطي الأغنية
-❖ pause : ايقاف الاغنية مؤقتا
-❖ resume : تكملة الاغنية
-❖ queue : اظهار قائمة التشغيل
-❖ np : اظهار الاغنية اللي انت مشغلها حاليا
-❖ general_commands : اظهار الاوامر العامة
+❖ 2play : لتشغيل اغنية
+❖ 2join : دخول رومك الصوتي
+❖ 2disconnect : مطور البوت
+❖ 2skip : تخطي الأغنية
+❖ 2pause : ايقاف الاغنية مؤقتا
+❖ 2resume : تكملة الاغنية
+❖ 2queue : اظهار قائمة التشغيل
+❖ 2np : اظهار الاغنية اللي انت مشغلها حاليا
+
 **`);
     }
 });     
